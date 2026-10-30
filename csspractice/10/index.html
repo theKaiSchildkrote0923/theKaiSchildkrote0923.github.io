@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 中的高度和寬度</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            height: 100vh;
+            background: gray;
+        }
+        .box {
+            min-width: 10%;
+            max-width: 15%;
+            /* width: 50%; */
+            height: 100px;
+            border: 3px solid #ffffff;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            第一個 box
+        </div>
+        <div class="box">
+            第二個 box
+        </div>
+        <div class="box">
+            第三個 box
+        </div>
+        <div class="box">
+            第四個 box
+        </div>
+    </div>
+</body>
+</html>
