@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 中的權重</title>
+    <style>
+        #demo {
+            color: orange;
+            /* color: orange !important; */
+        }
+        .test {
+            color: blue;
+        }
+        p {
+            color: red;
+        }
+        p {
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>Hello World!</p>
+    <p class="test">hello world</p>
+    <p id="demo" class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam blanditiis accusantium praesentium tempora. Temporibus, ipsa voluptatibus repellendus, ex incidunt obcaecati, nemo dolorum laborum animi sint voluptatem vero odio ullam similique!</p>
+    <p id="demo" class="test" style="color: purple;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aut, similique ad nobis quibusdam esse doloremque id omnis fuga dolorum laboriosam odio vel molestiae possimus, maxime veritatis eius sint. Magni.</p>
+</body>
+</html>

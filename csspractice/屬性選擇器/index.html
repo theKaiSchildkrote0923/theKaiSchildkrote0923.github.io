@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>屬性選擇器</title>
+    <style>
+        span[class] {
+            color: purple;
+        }
+        a[title] {
+            color: red;
+        }
+        a[href$="youtube.com"] {
+            color: orange;
+        }
+        a[href^="https://www.perplexity"] {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <span class="class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nemo saepe neque tenetur non unde harum repellat ullam iste provident assumenda aliquam, magnam dolorem esse asperiores aperiam distinctio maiores vero.</span>
+    <span class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae omnis, labore porro magni in cumque ut tenetur quod numquam. Vitae sapiente, aperiam porro officia possimus dicta quasi inventore odit expedita!</span>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda velit laborum recusandae debitis odit veniam. Quibusdam quos maiores quasi rem temporibus nostrum iure sequi cum non, earum fugiat molestias explicabo!</span>
+    <span class="class1 class2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic laudantium, fugiat nihil numquam beatae optio libero itaque tenetur quos a vel reiciendis? Quasi quos numquam omnis asperiores inventore maxime voluptate.</span>
+    <a href="https://www.google.com" title="google">google</a>
+    <a href="https://www.youtube.com" title="youtube">youtube</a>
+    <a href="https://chatgpt.com">chatgpt</a>
+    <a href="https://www.perplexity.ai">perplexity</a>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        body {
+            margin: 20px;
+            padding: 0;
+            background-color: rgb(223, 221, 221);
+        }
+        .wrapper {
+            max-width: 960px;
+            margin: 2em auto;
+        }
+        .col1,
+        .col2 {
+            background-color: white;
+        }
+        @media screen and (min-width: 600px){
+            .wrapper{
+                display: flex;
+            }
+            .col1{
+                flex: 1;
+                margin-right: 5%;
+            }
+            .col2{
+                flex: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="col1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis possimus, deserunt amet aliquid excepturi sed provident commodi eum aspernatur cupiditate accusantium laudantium blanditiis dolorem rem dolor ratione quam sunt. Nostrum!</p>
+        </div>
+        <div class="col2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum maxime praesentium nobis in architecto a voluptate! Eveniet aspernatur temporibus tempore fugit aliquid, enim officia numquam itaque corrupti minima fuga tempora!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis a, aperiam eveniet, ullam, eius blanditiis ipsa numquam suscipit adipisci voluptatem fuga neque commodi quo repellat nesciunt natus maiores perferendis tempora.</p>
+        </div>
+    </div>
+</body>
+</html>

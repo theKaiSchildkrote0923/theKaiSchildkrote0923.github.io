@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鄰居選擇器 Adjacent Selectors</title>
+    <style>
+        #all-articles h2 + p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="all-articles">
+        <article>
+            <h2>標題一</h2>
+            <p>作者：Ant</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, totam cum, dolorem pariatur veniam fugiat sint voluptas, veritatis ipsa commodi architecto. Et placeat error repudiandae ducimus officiis nisi amet quos!</p>
+        </article>
+        <article>
+            <h2>標題二</h2>
+            <p>作者：Bat</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quo aliquid. Itaque nulla quibusdam, illo eum necessitatibus animi quod velit accusamus maxime odit magni maiores ducimus, a facere eaque inventore.</p>
+        </article>
+        <article>
+            <h2>標題三</h2>
+            <p>作者：Cat</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illum, omnis ad perspiciatis quis autem incidunt necessitatibus officiis maiores voluptatibus corporis temporibus iusto, id dicta assumenda! Sint esse maxime labore?</p>
+        </article>
+    </div>
+</body>
+</html>
