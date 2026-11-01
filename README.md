@@ -32,17 +32,11 @@ It serves as a personal portfolio and learning journal, documenting my growth in
 │
 ├── index.html
 │
-├── pages/
-│
 ├── css/
 │   └── style.css
 │
-├── js/
-│
 ├── assets/
-│   ├── fonts/
-│   ├── icons/
-│   └── images/
+│   └── icons/
 │
 └── README.md
 ```
