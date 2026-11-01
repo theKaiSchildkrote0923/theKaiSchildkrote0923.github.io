@@ -3,7 +3,7 @@
 
 My personal website showcasing my background, technical interests, projects, and academic journey toward Computer Science.
 
-🌐 **Website:** `https://thekaischildkrote0923.github.io/`
+🌐 **Website:** <https://thekaischildkrote0923.github.io/>
 
 ## About
 
@@ -14,6 +14,7 @@ It serves as a personal portfolio and learning journal, documenting my growth in
 ## Website Structure
 
 | Section | Language | Description |
+| --- | --- | --- |
 | Home | English | Personal introduction, skills, and overview |
 | Learning Journey | Traditional Chinese | Independent study, technical learning, and knowledge exploration etc. |
 | Projects | Traditional Chinese | Programming projects and practical implementations etc. |
